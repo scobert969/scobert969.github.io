@@ -1,0 +1,213 @@
+:root {
+    --joy: coral;
+    --yeri: calc(var(--joy) * 2);
+}
+.main {
+    background-color: bisque;
+    background-image: url(../images/sparklecloud.gif)
+}
+
+body {
+    font-family: 'MS Gothic';
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 0 20px 20px 20px;
+    overflow-y: scroll;
+}
+
+p, .bias li, .lops {
+    color:#004ea1;
+
+}
+
+.lops li {
+    list-style-type: none;
+}
+span.Hamster {
+    margin: 0;
+    padding: 20px 0;
+    color: orange;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+div {
+    border-radius: 5px;
+}
+div.idk {
+    position: relative;
+    padding: 15px 0 0 15px;
+    margin: auto;
+    width: 1000px;
+    height: 800px;
+    border: 1px dashed white;
+    background-color:rgb(144, 150, 255)
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    color:whitesmoke
+}
+.navi {
+    float: left;
+    width: 196px;
+    height: 300px;
+    background-image: url("../images/angelcloudstartile.gif");
+}
+
+.navi ul {
+    position: relative;
+    z-index: 2;
+}
+.welcome {
+    float: left;
+    
+    margin-left: 40px; /* 30 px from the nav bar */
+    width: 600px;
+    height: 200px;
+    background-color:bisque;
+}
+
+#ow {
+    position:relative;
+    float: right;
+    scale: 50%;
+    top: -270px;
+}
+
+.welcome p {
+    float:left;
+    margin-left: 10px;
+    width: 50ch;
+}
+
+.greetings {
+    font-weight: bold;
+    color: #0200a1
+}
+.bias {
+    position: relative;
+    width: 280px;
+    height: 300px;
+    background-color: bisque;
+    top: 20px;
+    left: 40px;
+    white-space: normal;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.mains {
+    position: relative;
+    width: 280px;
+    height: 300px;
+    background-color: bisque;
+    top: -280px;
+    left: 160px;
+    white-space: normal;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.cloud {
+    position: absolute;
+    top: -145px;
+    left: -190px;
+    scale: 75%;
+    z-index: 1;
+}
+#humping {
+    scale: 50%;
+    position: relative;
+    float: left;
+    top: -330px;
+    left: -98px;
+}
+
+#kiri {
+    scale: 50%;
+    position: relative;
+    float: right;
+    top: -1100px;
+    left: 115px;
+}
+
+#minidosc {
+    position: relative;
+    float: right;
+    top: -600px;
+    left: 360px;
+    width: 300px;
+    height: 250px;
+}
+
+#tifa {
+    scale: 35%;
+    position: absolute;
+    top: -410px;
+    left: 130px;
+}
+
+#bagdes {
+    position: relative;
+    background-color: bisque;
+    width: 400px;
+    height: 200px;
+    top: -850px;
+    left: 235px;
+    padding: 10px 0 0 10px;
+    display: inline-block;
+}
+
+#bagdes img {
+    position: relative;
+    padding: 0 0 5px 0;
+}
+
+#e {
+    margin: auto;
+    width: min(900px, 20vh);
+    height: 100%;
+    background-color:rgb(15, 59, 102);
+    padding-left: 5px;
+    
+}
+
+#e.toggled {
+    background-color: var(--joy);
+}
+
+#oldest {
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    border: 0;
+}
+
+#oldest:hover {
+    color:rgb(140, 239, 186);
+    transform: translateY(-4px);
+}
+
+#oldest:active {
+    transform: translateY(0);
+}
+
+/* Blog */
+.post {
+    position: relative;
+    width: 750px;
+    height: 750px;
+    left: 220px;
+}
+
+iframe {
+    position: relative;
+    top: -290px;
+    left: 15px;
+}
+
+.blob {
+    width: 650px;
+
+    background-color: bisque;
+}
