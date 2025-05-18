@@ -15,6 +15,15 @@ function setup() {
     const day = valentines.getDay();
     console.log(ob.x + ob.y);
     
+    $("#slendy").on("load", function() {
+        var title = $(this).contents().find("title").html();
+        console.log(title);
+        if (title != "Eyes Wide Open") {
+            $(document).find("title").html(title);
+        } 
+        console.log(90);
+    });
+
     if (day === 0 ) {
         $("#rv").text("Red Velvet - Yeri");
     }

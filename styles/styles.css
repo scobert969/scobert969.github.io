@@ -2,6 +2,9 @@
     --joy: coral;
     --yeri: calc(var(--joy) * 2);
 }
+@media screen {
+    
+}
 .main {
     background-color: bisque;
     background-image: url(../images/sparklecloud.gif)
@@ -17,7 +20,7 @@ body {
 }
 
 p, .bias li, .lops {
-    color:#004ea1;
+    color:#1300bf;
 
 }
 
@@ -131,7 +134,7 @@ ul {
     left: 115px;
 }
 
-#minidosc {
+.minidosc {
     position: relative;
     float: right;
     top: -600px;
@@ -140,7 +143,7 @@ ul {
     height: 250px;
 }
 
-#tifa {
+.tifa {
     scale: 35%;
     position: absolute;
     top: -410px;
@@ -210,4 +213,11 @@ iframe {
     width: 650px;
 
     background-color: bisque;
+}
+
+.tifa_blog {
+    position: relative;
+    scale: 35%;
+    top: -894px;
+    left: 570px;
 }
