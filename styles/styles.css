@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'MS Gothic';
+    font-family: 'MS Gothic', 'Courier New', Courier, monospace;
     width: 1000px;
     margin: 0 auto;
     margin-top: 5px;
