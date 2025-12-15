@@ -51,14 +51,14 @@ function setup() {
     
     $("#ow").click(function() {
         console.log("winston clicked");
-        if ($(this).attr("src") === "images/winston.webp") {
-            $(this).attr("src", "images/juno.webp");
+        if ($(this).attr("src") === "/images/winston.webp") {
+            $(this).attr("src", "/images/juno.webp");
             $(this).css("top", "-355px");
             $(this).css("scale", "40%");
             $(this).attr("title", "Hi! I'm Juno!");
         }
-        else if ($(this).attr("src") === "images/juno.webp") {
-            $(this).attr("src", "images/winston.webp");
+        else if ($(this).attr("src") === "/images/juno.webp") {
+            $(this).attr("src", "/images/winston.webp");
             $(this).css("top", "-270px");
             $(this).css("scale", "50%");
             $(this).attr("title", "winton");
